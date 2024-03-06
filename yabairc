@@ -3,8 +3,8 @@ yabai -m config layout bsp
 # split right on new window
 yabai -m config window_placement second_child
 
-# mouse focuses to app on app select
-yabai -m config mouse_follows_focus on
+# mouse focuses to app on app select (kind of annoying to have the mouse move around a bunch)
+yabai -m config mouse_follows_focus off
 
 yabai -m config mouse_modifier alt
 
